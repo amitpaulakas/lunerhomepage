@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align:middle ;
+}
+h1,h2,h3,h4,h5,h6,p,div,span,ul,li,img,body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+  
+ 
+:root{
+    --primary_background_color: #B070FF;
+      --secendary_bckground_color: #7C14FD;
+    --line_color: #2405f2;
+    --button_color:#fcd980;
+    --primary_text_color:#282938;
+    
+
+}
+
+/* common css end */
+
+
+
+
+/* navber css start */
+.navigation_ui{
+    column-gap: 25px;
+    
+    color: black;
+    font-weight: 600;
+}
+
+.navigation_color a{
+    color: black;
+    font-weight: 600;
+}
+.navigation_color a:hover,.active{
+   color: blue;
+}
+
+
+.Nav-Button {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid var(--secendary_bckground_color );
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    font-weight: 600;
+}
+.Nav-Button:hover{
+    background-color: var(--secendary_bckground_color);
+    color: white;
+    font-weight: 600;
+}
+/* navber csss end */
+/* banner part css start */
+.bannerright-cont{
+    color: black;
+    margin-top: 250px;
+font-size: 66px;
+font-style: normal;
+font-weight: 700;
+line-height: 115.7%;
+letter-spacing: -1.14px;
+position: relative;
+}
+.bannerrightcont_HIGHLIGHT{
+    color: #7C14FD;
+font-size: 66px;
+}
+.bannerright-cont::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 588px;
+    background-color: #7C14FD;
+    top: 48px;
+    left: 0px;
+    opacity: .2;
+}
+.bannerright-contsubtitle{
+    font-size: 26px;
+    margin-top: 36px;
+}
+.bannerright-conticoniteams{
+    margin-top: 50px;
+}
+.bannerright-contfiver{
+    margin-top: -20px;
+}
+.bannerright-contbutton{
+  padding: 24px 52px;
+  border:2px solid  #7C14FD;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: black;
+  transition: all linear .3s;
+  -webkit-transition: all linear .3s;
+  -moz-transition: all linear .3s;
+  -ms-transition: all linear .3s;
+  -o-transition: all linear .3s;
+}
+.bannerright-contbutton a{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+.bannerright-conticoniteams{
+    cursor: pointer;
+}
+.bannerright-contbutton:hover.bannerright-contbutton a{
+    color: white;
+}
+.bannerright-contbutton:hover{
+    background-color: #7C14FD;
+}
+.bannerbottompicture{
+    position: absolute;
+    z-index: -1;
+    margin-top: -351px;
+}
+/* banner part css end */
