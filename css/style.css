@@ -157,3 +157,9 @@ font-size: 66px;
     margin-top: -351px;
 }
 /* banner part css end */
+
+
+.boxmain{
+    padding: 25px 200px;
+    background-color: aquamarine;
+}
